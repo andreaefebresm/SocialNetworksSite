@@ -3,14 +3,14 @@ body {
   font-size: 18px;
   margin: 0;
   font-family: 'Crimson Pro', serif;
-  /*  cursor: url(./images/icon.png), auto; */
+  cursor: url("images/cursor.cur"), help;
+  height:100vh;
 }
 
-
 .jumbotron-fluid {
-    background-color: #f4efe8;
-    padding:  17px;
-    margin-bottom: 0;
+  background-color: #f4efe8;
+  padding: 17px;
+  margin-bottom: 0;
 }
 
 .container-fluid {
@@ -35,16 +35,14 @@ html {
 }
 
 .loader {
-  position: fixed;
-  background-color: var(--bg-color);
-  z-index: 1000;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
 }
 
 /* Mobile query */
@@ -57,8 +55,8 @@ html {
     margin-top: 1rem;
   }
 
-/*  #eadaca besciolino #9d3128 rosso */
-.navigazione {
+  /*  #eadaca besciolino #9d3128 rosso */
+  .navigazione {
     height: 60px;
     width: 100%;
     background-color: #9d3128;
@@ -82,7 +80,7 @@ html {
     line-height: 5rem;
     margin-right: 4rem;
     margin-bottom: 4rem;
-    color: yellow;
+    color: #9d3128;
   }
 
   .nomi {
@@ -106,7 +104,7 @@ html {
     font-weight: 900;
     padding-bottom: 3rem;
     margin: 4rem 2rem 0 2rem;
-    color: yellow;
+    color: #9d3128;
   }
 
   .sectiontext {
@@ -125,11 +123,11 @@ html {
     margin: 1rem 2rem 0 2rem;
     font-size: 1rem;
   } */
+
   .imgcaptioncard {
     padding: 1rem 0 1rem 0;
     font-size: 1rem;
   }
-
 
   .timespent1 {
     margin-bottom: 1rem;
@@ -213,7 +211,7 @@ html {
   .navigazione {
     height: 60px;
     width: 100%;
-    background-color: #eadaca;
+    background-color: #9d3128;
     align-items: center;
     position: fixed;
     z-index: 10;
@@ -240,6 +238,7 @@ html {
     margin: auto;
     margin-right: 3rem;
     margin-bottom: 0;
+    color: #9d3128;
   }
 
   .nomi {
@@ -277,6 +276,7 @@ html {
 
   .coltitle {
     padding-left: 0;
+    color: #9d3128;
   }
 
   h2 {
@@ -286,6 +286,7 @@ html {
     margin-left: 0;
     padding-left: 0;
     font-weight: 900;
+    color: #9d3128;
   }
 
   .sectiontext {
