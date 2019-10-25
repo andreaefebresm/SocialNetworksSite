@@ -12,21 +12,35 @@ body {
   margin: 0;
 }
 
+body {
+  cursor: url(../images/Cursor_hand_md.png), auto;
+}
+
 .container-fluid {
   background-color: #F4EFE8;
 }
 
 a:link {
-  color: white;
+  color: #9d3128;
   text-decoration: none;
 }
 
+a.pigeon:hover {
+  cursor: url(../images/Cursor_pigeon_md.png), auto;
+  color: white;
+}
+
+a.pigeon:link {
+  color: white;
+}
+
 a:visited {
-  color: #4b69a2;
+  color: #2C5162;
 }
 
 a:hover {
-  color: #4b69a2;
+  color: #2C5162;
+  cursor: url(../images/Cursor_box_md.png), auto;
 }
 
 html {
@@ -48,7 +62,6 @@ hr {
   background-color: white;
 }
 
-/*
 .loader {
   position: absolute;
   margin: auto;
@@ -58,7 +71,7 @@ hr {
   bottom: 0;
   width: 100%;
   height: auto;
-}*/
+}
 
 /* Mobile query */
 @media only screen and (min-width: 320px) {
@@ -70,7 +83,6 @@ hr {
     margin-top: 1rem;
   }
 
-  /*  #eadaca besciolino #9d3128 rosso */
   .navigazione {
     height: 60px;
     width: 100%;
@@ -239,10 +251,11 @@ hr {
     font-weight: 550;
   }
 
-h3 {
-  font-size: 1.2rem;
-  font-weight: 550;
-}
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 550;
+  }
+
   .sectiontext {
     padding: 0 0 3rem 0;
     font-size: 1rem;
@@ -260,7 +273,7 @@ h3 {
   }
 
   .datatitle {
-    font-weight: 900;
+    font-weight: 600;
   }
 
   .datasrc,
@@ -276,15 +289,21 @@ h3 {
   .loghi {
     display: inline-flex;
     align-items: flex-start;
+    padding: 0;
   }
 
   .loghi .density {
-    width: 25%;
+    width: 30%;
     padding: 0 1rem 0 0;
   }
 
+  .offset-2 {
+    margin: 0 0 0 16.6666% !important;
+  }
+
   .loghi .poli {
-    width: 90%;
+    width: 100%;
+    padding: 0 0 0 1rem;
   }
 
   .foot {
@@ -292,15 +311,28 @@ h3 {
   }
 
   .text-left {
-    padding: 0 0 0 2rem;
+    padding: 0 4rem 0 0;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: white;
   }
 
-  .fa-arrow-alt-circle-up {
-    font-size: 2rem;
-    color: white;
-    padding: 0;
+  .goup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn h3:hover {
+    color: #9d3128;
+    cursor: url(../images/Cursor_top_md.png), auto;
+  }
+
+  .btn h3 {
+    margin: 2rem 0 1rem 0;
+    padding: 0.5rem 0;
+    border-top: 0.5px solid #9d3128;
+    border-bottom: 0.5px solid #9d3128;
+    color: #2C5162;
   }
 }

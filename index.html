@@ -5,7 +5,24 @@
   <meta charset="utf-8">
   <meta name="description" content="Social network in the world">
   <title>Social Networks by Cultural Areas</title>
+  <!-- viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primary Meta Tags (for the browser and search engines) -->
+  <meta name="title" content="Social Networks by Cultural Areas">
+  <meta name="description" content="A short description of your work. It will appear on social media beneath the title and the thumbnail (if it's supported). No longer than 150 characters.">
+  <meta name="keywords" content="cultural area, social networks, data visualization, infographic">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://densitydesign.github.io/teaching-dd15/">
+  <meta property="og:title" content="Social Networks by Cultural Areas">
+  <meta property="og:description" content="A short description of your work. It will appear on social media beneath the title and the thumbnail (if it's supported). No longer than 150 characters.">
+  <meta property="og:image" content="https://via.placeholder.com/1200x628/F0F0F0/AAAAAA?text=1200%C3%97628">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://densitydesign.github.io/teaching-dd15/">
+  <meta property="twitter:title" content="Title of your work">
+  <meta property="twitter:description" content="A short description of your work. It will appear on social media beneath the title and the thumbnail (if it's supported). No longer than 150 characters.">
+  <meta property="twitter:image" content="https://via.placeholder.com/1200x628/F0F0F0/AAAAAA?text=1200%C3%97628">
   <!-- link to Bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <!-- link to css stylesheet -->
@@ -17,32 +34,31 @@
   <script src="https://kit.fontawesome.com/6187d84050.js" crossorigin="anonymous"></script>
   <!-- link to Favicon -->
   <link href="images/icon.png" rel="icon" type="image/icon">
+
+
 </head>
 
 <body>
-  <!-- Loader -->
+  <!-- Loader
   <div class="preloader" style="display: none;">
     <img id="loader" src="multimedia/images/Loader.gif" alt="Loader" style="display:none;" height="200rem">
-  </div>
+  </div> -->
 
   <!-- Title and number of the group, fixed on top -->
   <header class="container-fluid">
-
     <div class="row navigazione">
       <div class="col-12 col-lg-6">
         <h1 class="titolo">Social Networks by Cultural Areas</h1>
       </div>
 
       <div class="col-6 col-md-6 col-lg-6">
-        <p class="group">Group 1</p>
+        <a href="#" class="pigeon"><p class="group">Group 1</p></a>
       </div>
     </div>
-
   </header>
 
 
   <main>
-
     <!-- Main section of the webpage -->
     <section id="infografica" class="jumbotron jumbotron-fluid">
 
@@ -94,9 +110,8 @@
 
         <div class="row whiteback">
           <div class="col-12 col-lg-12">
-            <figure>
-              <img src="images/Gif_Totale.gif" class="img-fluid">
-            </figure>
+            <video height="90%" width="100%" src="multimedia/Zoom-axis.mp4" autoplay muted loop>Video not supported
+            </video>
             <p class="offset-2 caption">Clustering of Social Networks and Countries</p>
           </div>
         </div>
@@ -151,7 +166,7 @@
         </div>
 
         <!-- Step 3 - ISO CODES-->
-        <div class="row legend whiteback">
+        <div class="row whiteback ">
           <!-- img -->
           <div class="col-12 col-lg-4 offset-lg-2">
             <figure>
@@ -266,8 +281,8 @@
           <div class="col-12 col-lg-3">
             <a href="multimedia/Group-01-Social_Networks_by_Cultural_Areas.xlsx" class="datadownload" download>Download dataset</a>
           </div>
-          <div class="col-lg-3">
-            <a href="#infografica"><button type="button" class="btn btn-default btn-circle"><span class="fas fa-arrow-alt-circle-up"></span></button></a>
+          <div class="col-lg-12 goup">
+            <a href="#infografica"><button type="button" class="btn"><h3>Back to visualization</h3></button></a>
           </div>
         </div>
       </section>
@@ -277,15 +292,15 @@
 
   <!-- Footer -->
 
-  <footer class="container-fluid">
+  <footer id="footercol" class="container-fluid">
     <section class="container">
       <div class="row foot">
-        <div class="col-12 col-lg-3 offset-lg-1 loghi">
+        <div class="col-12 col-lg-3 loghi">
           <img src="images/logo_density_white.png" class="img-fluid density">
           <img src="images/politecnico_logo.png" class="img-fluid poli">
         </div>
 
-        <div class="col-12 col-lg-2 offset-lg-1 text-left">
+        <div class="col-12 col-lg-2 offset-2 text-left">
           <p><strong>Project by</strong><br><br>
             Della Pepa Gabriele<br>Febres Medina Andrea<br>
             Ghio Caterina<br>Granzotto Francesca<br>
