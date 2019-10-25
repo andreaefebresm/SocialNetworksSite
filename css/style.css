@@ -24,7 +24,7 @@ a:link {
   color: #9d3128;
   text-decoration: none;
 }
-
+/* PigeonEasterEgg */
 a.pigeon:hover {
   cursor: url(../images/Cursor_pigeon_md.png), auto;
   color: white;
