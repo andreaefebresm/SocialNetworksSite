@@ -20,6 +20,10 @@ body {
   background-color: #F4EFE8;
 }
 
+.visualization {
+  display: block;
+}
+
 a:link {
   color: #9d3128;
   text-decoration: none;
