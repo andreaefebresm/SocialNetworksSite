@@ -96,6 +96,11 @@ hr {
     z-index: 10;
   }
 
+  #infografica {
+    width: 100%;
+    height: auto;
+  }
+
   .group {
     display: none;
   }
