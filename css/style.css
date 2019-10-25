@@ -24,6 +24,7 @@ a:link {
   color: #9d3128;
   text-decoration: none;
 }
+
 /* PigeonEasterEgg */
 a.pigeon:hover {
   cursor: url(../images/Cursor_pigeon_md.png), auto;
@@ -85,7 +86,7 @@ hr {
     z-index: 10;
   }
 
-  .img-responsive {
+  .img-fluid {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -222,6 +223,12 @@ hr {
     font-weight: bold;
     margin: 0;
     padding: 0 0 0 0.3rem;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 
   .navigazione {
