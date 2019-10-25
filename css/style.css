@@ -3,18 +3,17 @@ body {
   font-size: 18px;
   margin: 0;
   font-family: 'Crimson Pro', serif;
-  cursor: url("images/cursor.cur"), help;
-  height:100vh;
+  color: #2C5162;
 }
 
 .jumbotron-fluid {
-  background-color: #f4efe8;
-  padding: 17px;
-  margin-bottom: 0;
+  background-color: #9d3128;
+  padding: 17px 17px 0 17px;
+  margin: 0;
 }
 
 .container-fluid {
-  background-color: #f4efe8;
+  background-color: #F4EFE8;
 }
 
 a:link {
@@ -34,16 +33,32 @@ html {
   scroll-behavior: smooth;
 }
 
-.loader {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
+footer, footer .container-fluid {
+  padding: 2rem 0 3rem 0;
+  background-color: #9d3128 !important;
+  border-top: 1px solid white;
 }
+
+hr {
+  border-top: 1px solid #9d3128;
+  margin: 2rem 0;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+/*
+.loader {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}*/
 
 /* Mobile query */
 @media only screen and (min-width: 320px) {
@@ -70,16 +85,14 @@ html {
   }
 
   .intestazione {
-    margin-top: 2rem;
-    margin-left: 1.5rem;
+    margin: 2rem 0 0 1.5rem;
   }
 
   .titoloint {
     font-size: 2rem;
     font-weight: 900;
     line-height: 5rem;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin: 0 4rem 4rem 0;
     color: #9d3128;
   }
 
@@ -87,13 +100,11 @@ html {
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 3rem;
-    margin-bottom: 8rem;
+    margin: 0 0 8rem 0;
   }
 
   .brief {
-    margin-top: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 3rem 2rem 0 2rem;
     font-size: 1rem;
     font-weight: 500;
     line-height: 3.7rem;
@@ -102,52 +113,18 @@ html {
   h2 {
     font-size: 1rem;
     font-weight: 900;
-    padding-bottom: 3rem;
+    padding: 0 0 3rem 0;
     margin: 4rem 2rem 0 2rem;
-    color: #9d3128;
+  }
+
+  .legend {
+    padding: 0 0 3rem 0;
   }
 
   .sectiontext {
     padding: 0 2rem 3rem 2rem;
     font-size: 2rem;
     line-height: 3rem;
-  }
-
-  .textcard {
-    padding: 0 2rem 1rem 2rem;
-    font-size: 2rem;
-    line-height: 3rem;
-  }
-
-  /* .imgcaption {
-    margin: 1rem 2rem 0 2rem;
-    font-size: 1rem;
-  } */
-
-  .imgcaptioncard {
-    padding: 1rem 0 1rem 0;
-    font-size: 1rem;
-  }
-
-  .timespent1 {
-    margin-bottom: 1rem;
-  }
-
-  .user {
-    width: 4rem;
-    height: 4rem;
-    margin-right: 1rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
-    margin-bottom: 1.2rem;
-  }
-
-  .media-body {
-    color: #4b69a2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    line-height: 2rem;
   }
 
   .datatitle, .datasrc, .datadownload {
@@ -168,27 +145,18 @@ html {
 
   .loghi .density {
     width: 23%;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem 0;
   }
 
   .loghi .poli {
     width: 75%;
   }
 
-  footer {
-    padding: 4rem 0 3rem 0;
-    background-color: dimgray;
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    border-top-color: darkgrey;
-  }
-
   .text-left {
     margin: 0;
     padding: 0 3rem 0 3rem;
     font-size: 2rem;
-    color: black;
+    color: white;
   }
 
   .fa-arrow-alt-circle-up {
@@ -202,131 +170,88 @@ html {
 @media only screen and (min-width: 992px) {
   .titolo {
     font-size: 1.2rem;
-    color: white;
-    font-weight: 600;
+    font-weight: bold;
     margin: 0;
-    padding-left: 0.3rem;
+    padding: 0 0 0 0.3rem;
   }
 
   .navigazione {
     height: 60px;
     width: 100%;
+    border-bottom: 1PX solid white;
     background-color: #9d3128;
     align-items: center;
     position: fixed;
     z-index: 10;
+    color: white;
   }
 
   .group {
     display: flex;
     float: right;
-    margin-bottom: 0;
-    font-size: 1.3rem;
-    color: white;
-    padding-right: 0.3rem;
+    margin: 0;
+    padding: 0 0.3rem 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .legend {
+    padding-bottom: 3rem;
   }
 
   .intestazione {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin: 6rem 0 4rem 0;
   }
 
   .titoloint {
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 2.5rem;
-    margin: auto;
-    margin-right: 3rem;
-    margin-bottom: 0;
-    color: #9d3128;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin: 0 3rem 0 0;
+    color: white;
   }
 
   .nomi {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+    margin: 0;
+    color: white;
   }
 
   .brief {
-    margin-top: 3rem;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    font-weight: 900;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 3rem 0 0 0;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 300;
   }
 
-  .user {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-right: 0.7rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
-  }
-
-  .media-body {
-    color: #4b69a2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
-
-  .coltitle {
-    padding-left: 0;
-    color: #9d3128;
+  .caption {
+    padding: 0 0 0 0.3rem;
+    font-size: 1rem;
+    font-style: italic;
   }
 
   h2 {
-    font-size: 1.5rem;
-    padding-bottom: 3rem;
-    margin-top: 4rem;
-    margin-left: 0;
-    padding-left: 0;
-    font-weight: 900;
-    color: #9d3128;
+    font-size: 1.6rem;
+    padding: 0 0 3rem 0;
+    margin: 0;
+    font-weight: 550;
   }
 
+h3 {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
   .sectiontext {
     padding: 0 0 3rem 0;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    margin: 0;
-  }
-
-  .textcard {
-    padding: 0;
     font-size: 1rem;
     line-height: 1.4rem;
     margin: 0;
   }
 
-  .imgcaption {
-    margin: 1rem 0 0 0;
-    padding: 0;
-    font-size: 1rem;
-  }
-
-  .imgcaptioncard {
-    padding: 1rem 0 0 0;
-    font-size: 1rem;
-  }
-
-  .timespent1 {
-    margin-bottom: 0;
-    margin-right: 0.5rem;
-    padding-top: 1rem;
-  }
-
-  .timespent2 {
-    margin: 0;
-    padding-top: 1rem;
-  }
-
-  .dataset {
-    padding-left: 0;
+  .lastcapt {
+    padding: 0 0 4rem 0;
   }
 
   .datatitle, .datasrc, .datadownload {
@@ -343,6 +268,11 @@ html {
     font-weight: 200;
   }
 
+  .datarow {
+    border-top: 1px solid #9d3128;
+    padding: 2rem 0 0 0;
+  }
+
   .loghi {
     display: inline-flex;
     align-items: flex-start;
@@ -350,7 +280,7 @@ html {
 
   .loghi .density {
     width: 25%;
-    padding-right: 1rem;
+    padding: 0 1rem 0 0;
   }
 
   .loghi .poli {
@@ -361,19 +291,11 @@ html {
     display: inline-flex;
   }
 
-  footer {
-    padding: 2rem 0 3rem 0;
-    background-color: dimgray;
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    border-top-color: darkgrey;
-  }
-
   .text-left {
     padding: 0 0 0 2rem;
     margin: 0;
     font-size: 0.8rem;
-    color: black;
+    color: white;
   }
 
   .fa-arrow-alt-circle-up {
