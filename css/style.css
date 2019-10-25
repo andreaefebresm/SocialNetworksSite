@@ -34,6 +34,10 @@ a.pigeon:link {
   color: white;
 }
 
+a.pigeon:visited {
+  color: white;
+}
+
 a:visited {
   color: #2C5162;
 }
@@ -62,6 +66,7 @@ hr {
   background-color: white;
 }
 
+/*
 .loader {
   position: absolute;
   margin: auto;
@@ -71,7 +76,7 @@ hr {
   bottom: 0;
   width: 100%;
   height: auto;
-}
+} */
 
 /* Mobile query */
 @media only screen and (min-width: 320px) {
@@ -190,7 +195,7 @@ hr {
   .navigazione {
     height: 60px;
     width: 100%;
-    border-bottom: 1PX solid white;
+    border-bottom: 1px solid white;
     background-color: #9d3128;
     align-items: center;
     position: fixed;
@@ -204,7 +209,7 @@ hr {
     margin: 0;
     padding: 0 0.3rem 0 0;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .legend {
@@ -323,12 +328,12 @@ hr {
     justify-content: center;
   }
 
-  .btn h3:hover {
+  .goup h3:hover {
     color: #9d3128;
     cursor: url(../images/Cursor_top_md.png), auto;
   }
 
-  .btn h3 {
+  .goup h3 {
     margin: 2rem 0 1rem 0;
     padding: 0.5rem 0;
     border-top: 0.5px solid #9d3128;
